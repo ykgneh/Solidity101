@@ -59,7 +59,7 @@ contract SimpleStorage {
 
     // Arrays
     // type[] visibility name;
-    // Example (static array): uint256[] listOfFavoriteNumbers = [0, 78, 90];
+    // Example: uint256[] listOfFavoriteNumbers = [0, 78, 90];
 
     // Dynamic array of struct Person
     Person[] public listOfPeople;
