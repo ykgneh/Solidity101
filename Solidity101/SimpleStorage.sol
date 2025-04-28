@@ -61,7 +61,7 @@ contract SimpleStorage {
     // type[] visibility name;
     // Example: uint256[] listOfFavoriteNumbers = [0, 78, 90];
 
-    // Dynamic array of struct Person
+    // Dynamic array of type struct Person
     Person[] public listOfPeople;
 
     // Mapping
