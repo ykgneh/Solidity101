@@ -12,7 +12,7 @@ function deploy () public {
     groupsOFSimpleStorage.push(simpleStorage);
 }
 function fsStore(uint256 index, uint256 myNum) public {
-   //SimpleStorage myStorage = groupsOFSimpleStorage[index];  bikin variabel myStorage = array index
+   //SimpleStorage myStorage = groupsOFSimpleStorage[index];  bikin variabel myStorage = array index ( kalau pake contravt lain harus declare kalo pake func)
    groupsOFSimpleStorage[index].store(myNum); // manggil function store pada contract simple storage dan masukin my num ke index mystorage
 }
 function fsGet(uint256 index) public view returns(uint256){
