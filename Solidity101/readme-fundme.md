@@ -128,4 +128,5 @@ Kedua fungsi ini memanggil fungsi `fund()`, sehingga donasi tetap tercatat meski
 * **`constant`**: Variabel yang nilainya tetap dan sudah ditentukan sebelum kontrak di-deploy.
 * **Logika**: Menggunakan `require`, `modifier`, dan mekanisme transfer dana yang memastikan bahwa hanya pemilik yang dapat menarik dana dan donasi dilakukan dengan benar.
 
+
 ---
